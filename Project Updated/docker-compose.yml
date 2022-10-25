@@ -12,8 +12,8 @@ services:
       - "3000:3000"
     environment:
       - PORT=3000
-      - NODE_ENV=value
-      - MONGO_DB_CONNECTION_STRING=value
-      - MONGO_DB_NAME=value
-      - REDIS_URI=value
+      - NODE_ENV=development
+      - MONGO_DB_CONNECTION_STRING=mongodb+srv://AdminPilsby:Lukmigdogind@odenseemergency.egjcxgs.mongodb.net/?retryWrites=true&w=majority
+      - MONGO_DB_NAME=OdenseEmergency
+      - REDIS_URI=rediss://default:AVNS_H9gYwIgUB5AFKv5dDki@redis-odense-emergency-student-5f6c.aivencloud.com:23643
       
