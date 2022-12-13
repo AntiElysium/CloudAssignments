@@ -15,5 +15,5 @@ services:
       - NODE_ENV=development
       - MONGO_DB_CONNECTION_STRING=mongodb+srv://AdminPilsby:Lukmigdogind@odenseemergency.egjcxgs.mongodb.net/?retryWrites=true&w=majority
       - MONGO_DB_NAME=OdenseEmergency
-      - REDIS_URI=rediss://default:AVNS_H9gYwIgUB5AFKv5dDki@redis-odense-emergency-student-5f6c.aivencloud.com:23643
+      - REDIS_URI=10.20.143.243:6379
       
